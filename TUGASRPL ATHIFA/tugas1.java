@@ -5,14 +5,19 @@
 
 public class tugas1{
 	public static void main(String[] args){
-		String stb ="13020180068";
-		String nama ="athifah arsa khaerawan";
-		String jurusan ="teknik informatika";
-		String fakultas ="ilmu komputer";
-		System.out.println("stambuk saya : " +stb);
-		System.out.println("nama saya : " +nama);
-		System.out.println("saya dari : " +jurusan);
-		System.out.println(fakultas);
+	Scanner masukkan=new Scanner(System.in);
+		String stb;
+		String nama;
+		String jurusan;
+		String fakultas;
+		System.out.println("stambuk saya : ");
+		stb=masukkan.nextLine();
+		System.out.println("nama saya : ");
+		nama=masukkan.nextLine();
+		System.out.println("saya dari : ");
+		jurusan=masukkan.nextLine();
+		System.out.println("dan fakultas : ");
+		fakultas=masukkan.nextLine();
 	}
 }
 	
